@@ -9,7 +9,7 @@ newest = files[-1]
 filename = newest
 sub = "Attendance Report for " + str(date)
 # mail information
-yag = yagmail.SMTP("maz003.kali@gmail.com", "ABC123654789m#")
+yag = yagmail.SMTP("maz003.kali@gmail.com", "hiddenpassword")
 
 # sent the mail
 yag.send(
